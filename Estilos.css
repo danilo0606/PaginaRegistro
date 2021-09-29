@@ -1,0 +1,176 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+} 
+
+html{
+
+    box-sizing: content-box;
+}
+
+body{
+
+    width: 1277;
+    height: 590;
+    background: darkkhaki;
+}
+
+*,*:before, *:after {
+
+    box-sizing: inherit;
+}
+
+#Content-Body{ 
+
+    background: rgb(5, 136, 64);
+    display: flex;
+    flex-direction: row ;
+    flex-wrap:wrap;
+    width: 100%;
+    height: 100%;
+    
+}
+#Content-Header{ 
+    
+    background: rgb(19, 19, 20);
+    display: flex;
+    
+}
+
+#Content-Footer{ 
+    
+    background: rgb(208, 208, 211);
+    display: flex;
+}
+
+.Navegacion-Principal {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.Navegacion-Principal a{
+
+    
+    background-color: linear-gradient(359.58deg, #0077B6 -25.87%, rgba(11, 37, 69, 0) 153.32%);
+    display: block;
+    text-decoration:none;
+    color:whitesmoke;
+    padding: 10px;
+    margin: 5px 5px;
+    text-align: center;
+    border-radius:10px; 
+  
+}
+
+.Navegacion-Principal a:hover{
+
+    background-color:rgb(9, 240, 220);
+    color: black;
+    
+}
+
+#Content-left{ 
+
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 10px;
+
+    
+
+}
+
+.Content-Main{
+
+    display: flex;
+    flex-direction: column;
+    
+    height:590;
+    width: 100%;
+
+}
+
+.Btn_form {
+
+    margin-bottom: 100px;
+}
+
+#Frm {
+
+    margin-top:20%;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+/*#Content-Principal{
+
+
+    
+}
+
+
+
+
+#Content-Main{ 
+
+    
+}
+
+#Content-Footer{ 
+    
+
+}
+
+
+
+.Contenedor{
+
+
+   
+}
+
+
+
+.Navegacion-Principal a{
+    
+}
+
+.Navegacion-Principal a:hover{
+
+   
+}
+
+
+
+.Content-campos {
+
+   
+    
+}
+
+.input-text {
+
+    margin: 5px auto;
+
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.campo{
+
+    align-items: center;
+    display: grid;
+    grid-template:200px 200px;
+
+}*/
